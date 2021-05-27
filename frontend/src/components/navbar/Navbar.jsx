@@ -1,16 +1,17 @@
 import React from 'react';
-import style from './Navbar.module.css';
+// import style from './Navbar.module.css';
+import {Navbar_Item} from "./navbar_items/Navbar_item";
 
 export const Navbar = () => {
     return(
         <nav>
             <ul>
-                <li className={style.nav_item}>events</li>
-                <li className={style.nav_item}>about</li>
-                <li className={style.nav_item}>for graduates</li>
-                <li className={style.nav_item}>for students</li>
-                <li className={style.nav_item}>graduates</li>
-                <li className={style.nav_item}>contacts</li>
+                <Navbar_Item name={"events"}/>
+                <Navbar_Item name={"about"}/>
+                <Navbar_Item name={"for graduates"}/>
+                <Navbar_Item name={"for students"}/>
+                <Navbar_Item name={"graduates"}/>
+                <Navbar_Item name={"contacts"}/>
             </ul>
         </nav>
     )
