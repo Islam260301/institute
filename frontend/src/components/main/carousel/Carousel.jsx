@@ -2,16 +2,18 @@ import React from 'react';
 import first from '../../../assets/images/first_slide.jpg';
 import second from '../../../assets/images/second_slide.jpg';
 import third from '../../../assets/images/third_slide.jpg';
-import {Carousel} from "react-bootstrap";
+import {Button, Carousel} from "react-bootstrap";
 
 
 export const Slide = () => {
+
     return (
-        <Carousel fade
-                  indicators={true}
-                    autoPlay
-                  interval={4000}
-                  pause={false}
+        <Carousel
+            fade
+            controls={true}
+            indicators={true}
+            interval={4000}
+            pause={false}
         >
             <Carousel.Item>
                 <img
@@ -22,6 +24,7 @@ export const Slide = () => {
                 <Carousel.Caption>
                     <h3>First slide label</h3>
                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <Button>Learn more</Button>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -34,6 +37,7 @@ export const Slide = () => {
                 <Carousel.Caption>
                     <h3>Second slide label</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <Button>Learn more</Button>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -46,6 +50,7 @@ export const Slide = () => {
                 <Carousel.Caption>
                     <h3>Third slide label</h3>
                     <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <Button>Learn more</Button>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
