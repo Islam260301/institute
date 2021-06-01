@@ -1,0 +1,25 @@
+.footer {
+    width: 100vw;
+    box-shadow: 0px -9px 10px #888888;
+}
+
+.flex_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 10px;
+
+}
+.flex_item {
+    width: calc((100% / 3) - 6rem);
+    margin: 1rem 1rem;
+    padding: 0 1rem;
+}
+
+.logo_img {
+    max-width: 100%;
+}
+
+.flex_item li {
+    margin: 5px;
+}

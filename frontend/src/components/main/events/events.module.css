@@ -1,13 +1,10 @@
+.events {
+    margin: 3rem 0;
+}
+
 .events_container {
     margin-top: 3rem;
     margin-inline: 6rem;
-}
-
-.my__carousel_main ol li {
-    background-color: red;
-    border-radius: 50%;
-    height: 10px;
-    width: 10px;
 }
 
 .m_lr {
@@ -22,8 +19,16 @@
     padding: 0;
 }
 
-.event_item {
-    box-shadow: 10px 10px black;
-    padding: 5px;
+
+
+.meta_text {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    background: #1f214a;
+    color: #fff;
+    padding: 5px 9px;
+    justify-content: space-evenly;
+    margin: 0;
 }
 

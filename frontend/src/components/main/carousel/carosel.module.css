@@ -1,8 +1,18 @@
-.my__carousel_main ol li {
-    background-color: red;
-    border-radius: 50%;
-    height: 10px;
-    width: 10px;
+.carousel {
+    max-height: 50vh;
 }
 
+.carousel_img {
+    object-fit:cover;
+    max-height: 50vh;
+}
+
+.carousel_img_wrap {
+    display: inline-block;
+}
+
+.carousel_caption {
+    display: grid;
+    justify-content: start;
+}
 
