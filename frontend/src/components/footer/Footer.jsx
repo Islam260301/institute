@@ -14,7 +14,7 @@ export const Footer = () => {
                     <div className={style.flex_item}>
                         <h3>Contacts</h3>
                         <hr/>
-                        <ul className={`list-unstyled `}>
+                        <ul className={`list-unstyled`}>
                             <li><Icon.TelephoneFill/>+996550485515</li>
                             <li><Icon.TelephoneFill/>+996550485515</li>
                             <li><Icon.EnvelopeFill/>islam260301kg@gmail.com</li>

@@ -1,6 +1,6 @@
 import React from 'react';
-import news_1 from '../../../assets/images/news_1.jpg';
 import style from "./news.module.css";
+import news_1 from '../../../assets/images/events_img.jpg';
 import * as Icon from 'react-bootstrap-icons';
 
 export function News() {

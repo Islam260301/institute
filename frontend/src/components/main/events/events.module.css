@@ -1,15 +1,17 @@
 .events {
-    margin: 3rem 0;
+    margin: 0 auto;
 }
 
 .events_container {
     margin-top: 3rem;
-    margin-inline: 6rem;
+    /*margin-inline: 6rem;*/
 }
 
-.m_lr {
-    margin: 0 2rem 0 2rem;
+.event_item {
+    box-shadow: 4px 4px 10px #e0dedeb5;
+    padding: 2rem;
 }
+
 
 .events_time {
     background-color: dodgerblue;
@@ -18,8 +20,6 @@
 .events_img {
     padding: 0;
 }
-
-
 
 .meta_text {
     display: flex;
@@ -31,4 +31,11 @@
     justify-content: space-evenly;
     margin: 0;
 }
+
+
+.flex_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 
