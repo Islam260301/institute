@@ -1,0 +1,1 @@
+import axios from "../utils/axios";export const getAllFacultiesAPI = async () => {    try {        return await axios.get('/faculty')    } catch (error) {        console.log(' server error', error)    }}

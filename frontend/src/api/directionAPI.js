@@ -1,0 +1,1 @@
+import axios from "../utils/axios";export const getAllDirectionsAPI = async () => {    try {        return await axios.get('/direction');    } catch (error) {        console.log(' server error', error);    }};

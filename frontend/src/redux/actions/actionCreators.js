@@ -1,0 +1,1 @@
+import {GET_ALL_DIRECTIONS, GET_ALL_FACULTIES} from "./actionTypes";// FACULTIESexport const getAllFaculties_AC = (faculties) => ({type: GET_ALL_FACULTIES, faculties});// DIRECTIONexport const getAllDirections_AC = (directions) => ({type: GET_ALL_DIRECTIONS, directions});

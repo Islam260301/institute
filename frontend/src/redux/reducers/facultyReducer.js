@@ -1,0 +1,1 @@
+const initialState = {    faculties: []}export const facultyReducer = (state = initialState, action) => {    if (action.type === 'GET_ALL_FACULTIES') {        return {...state, faculties: action.faculties}    } else {        return {...state}    }}

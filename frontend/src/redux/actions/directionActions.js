@@ -1,0 +1,1 @@
+import {getAllDirectionsAPI} from "../../api/directionAPI";import * as AC from "./actionCreators";export const fetchAllDirections = () => {    return async dispatch => {        const response = await getAllDirectionsAPI()        dispatch(AC.getAllDirections_AC(response.data.directions))    }}
