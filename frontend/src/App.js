@@ -5,17 +5,29 @@ import {Footer} from "./components/footer/Footer";
 import {connect} from "react-redux";
 import {fetchAllFaculties} from "./redux/actions/facultyActions";
 import {fetchAllDirections} from "./redux/actions/directionActions";
+import {Route} from 'react-router-dom';
+import {Admin} from "./components/admin/Admin";
 
-function App(props) {
+const Site = (props) => {
     return (
-        <div className="App">
+        <div>
             <div className={`container`}>
                 <button onClick={props.fetchAllFaculties}>Fetch faculties</button>
                 <button onClick={props.fetchAllDirections}>Fetch directions</button>
+                {/*<AddDir/>*/}
             </div>
             <Header/>
             <Main/>
             <Footer/>
+        </div>
+    )
+}
+
+function App(props) {
+    return (
+        <div className="App">
+            <Route path={`/adminka`} component={Admin}/>
+            <Route path={`/`} exact component={Site}/>
         </div>
     );
 }
