@@ -27,7 +27,6 @@ export function Events() {
                     <hr/>
                 </div>
                 <div className={`col-md-8 col-12`}>
-
                         <div className={`d-flex flex-wrap row ${style.flex_container}`}>
                             <div className={` ${style.event_item} col-md-6 col-12`}>
                                 <div className={"row"}>

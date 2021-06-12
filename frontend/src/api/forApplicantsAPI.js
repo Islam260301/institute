@@ -1,0 +1,1 @@
+import axios from "../utils/axios";export const getAllForApplicantsAPI = async () => {    try {        return await axios.get('/forApplicants');    } catch (error) {        console.log(' server error', error);    }};

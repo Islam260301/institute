@@ -1,0 +1,1 @@
+import axios from "../utils/axios";export const getAllNewsAPI = async () => {    try {        return await axios.get('/news');    } catch (error) {        console.log(' server error', error);    }};

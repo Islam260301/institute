@@ -1,0 +1,1 @@
+import {getAllNewsAPI} from "../../api/newsAPI";import * as AC from "./actionCreators";export const fetchAllNews = () => {    return async dispatch => {        const response = await getAllNewsAPI()        dispatch(AC.getAllNews_AC(response.data.news))    }}

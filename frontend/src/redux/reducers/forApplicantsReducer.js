@@ -1,0 +1,1 @@
+import * as a_types from '../actions/actionTypes';const initialState = {    forApplicants: []}export const forApplicantsReducer = (state = initialState, action) => {    if (action.type === a_types.GET_ALL_FOR_APPLICANTS) {        return {...state, forApplicants: action.forApplicants}    } else {        return {...state}    }}

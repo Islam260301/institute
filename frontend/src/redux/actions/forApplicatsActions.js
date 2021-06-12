@@ -1,0 +1,1 @@
+import * as AC from "./actionCreators";import {getAllForApplicantsAPI} from "../../api/forApplicantsAPI";export const fetchAllForApplicants = () => {    return async dispatch => {        const response = await getAllForApplicantsAPI()        dispatch(AC.getAllForApplicants_AC(response.data.itemsForApplicants))    }}

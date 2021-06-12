@@ -1,0 +1,1 @@
+import React from 'react';import {connect} from "react-redux";const Events = () => {    return(        <div>            Events        </div>    )}const mapStateToProps = (state) => {    return{        // events: state.    }}export default connect(mapStateToProps, {})(Events)
