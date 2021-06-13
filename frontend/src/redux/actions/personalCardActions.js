@@ -1,0 +1,1 @@
+import * as AC from "./actionCreators";import {getAllPersonalCardsAPI} from "../../api/personalCardAPI";export const fetchAllPersonalCards = () => {    return async dispatch => {        const response = await getAllPersonalCardsAPI()        dispatch(AC.getAllPersonalCards_AC(response.data.personalCards))    }}

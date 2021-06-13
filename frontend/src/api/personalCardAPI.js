@@ -1,0 +1,1 @@
+import axios from "../utils/axios";export const getAllPersonalCardsAPI = async () => {    try {        return await axios.get('/card');    } catch (error) {        console.log(' server error', error);    }};

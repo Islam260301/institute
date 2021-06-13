@@ -10,6 +10,7 @@
 .event_item {
     box-shadow: 4px 4px 10px #e0dedeb5;
     padding: 2rem;
+    height: auto;
 }
 
 

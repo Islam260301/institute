@@ -8,14 +8,9 @@ import {fetchAllDirections} from "./redux/actions/directionActions";
 import {Route} from 'react-router-dom';
 import {Admin} from "./components/admin/Admin";
 
-const Site = (props) => {
+const Site = () => {
     return (
         <div>
-            <div className={`container`}>
-                <button onClick={props.fetchAllFaculties}>Fetch faculties</button>
-                <button onClick={props.fetchAllDirections}>Fetch directions</button>
-                {/*<AddDir/>*/}
-            </div>
             <Header/>
             <Main/>
             <Footer/>
@@ -23,7 +18,7 @@ const Site = (props) => {
     )
 }
 
-function App(props) {
+function App() {
     return (
         <div className="App">
             <Route path={`/adminka`} component={Admin}/>
