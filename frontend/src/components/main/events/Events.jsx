@@ -4,6 +4,7 @@ import 'react-calendar/dist/Calendar.css';
 import style from "./events.module.css";
 import event_img_1 from "../../../assets/images/events_img.jpg";
 
+
 export function Events() {
     const [value, onChange] = useState(new Date());
     const [date, setDate] = useState(new Date().getDate());
