@@ -1,9 +1,15 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import style from "./news.module.css";
 import news_1 from '../../../assets/images/events_img.jpg';
 import * as Icon from 'react-bootstrap-icons';
+import axios from "../../../utils/axios";
 
 export function News() {
+
+	useEffect(async () => {
+		const res = await axios.get('http://localhost:7777/news')
+		console.log(res)
+	})
 
     return (
         <div className={`${style.news} `}>

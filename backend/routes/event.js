@@ -1,6 +1,7 @@
 const router = require('express').Router();
 const eventController = require('../controllers/eventController');
-const upload = require("../middleWare/upload");
+const {upload} = require("../middleWare/upload");
+// const upload = require("../middleWare/upload");
 
 
 

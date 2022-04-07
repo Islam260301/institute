@@ -1,14 +1,11 @@
 .carousel {
-    max-height: 50vh;
+    max-height: 80vh;
+    box-sizing: border-box;
 }
 
 .carousel_img {
     object-fit:cover;
-    max-height: 50vh;
-}
-
-.carousel_img_wrap {
-    display: inline-block;
+    max-height: 80vh;
 }
 
 .carousel_caption {
